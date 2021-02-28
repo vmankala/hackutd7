@@ -9,6 +9,7 @@
   "author": "Vidip Mankala",
   "license": "ISC",
   "dependencies": {
+    "cleverbot-free": "^1.0.5",
     "eris": "^0.14.0"
   }
 }

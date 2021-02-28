@@ -9,7 +9,7 @@ module.exports = (bot, msg) => {
     if (msg.author.bot) return;
 
     // Ignore messages without prefix except to randomly reply as cleverbot
-    if (msg.content.substring(0, bot.config.prefix.length) !== bot.config.prefix && Math.random() < 0) // Temporarily disabled
+    if (msg.content.substring(0, bot.config.prefix.length) !== bot.config.prefix && Math.random() < 0.01) 
         bot.commands.get('clever').run(bot, msg, msg.content.trim().split(/ +/g));
     else if (msg.content.substring(0, bot.config.prefix.length) !== bot.config.prefix) return;
 
