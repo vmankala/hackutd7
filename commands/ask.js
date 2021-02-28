@@ -1,4 +1,4 @@
-const embed = require('../utils/embed.js');
+const Embed = require('../utils/embed.js');
 const config = require('../config.json');
 
 exports.name = 'ask'
@@ -12,7 +12,7 @@ exports.run = (bot, msg, args) => {
     if (args.length === 0) return;
 
     // Create a new embed
-    let question = new embed();
+    let question = new Embed();
     question.setTitle("New Question");
     question.setDesc(args.join(' '));
 
