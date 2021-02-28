@@ -2,9 +2,6 @@ module.exports = (bot, msg) => {
     // Ignore messages from non-owners when in devMode
     if (bot.config.devMode && msg.author.id !== bot.config.ownerID) return;
 
-    // Ignore messages from unapproved servers
-    if (!bot.config.servers.includes(msg.guildID)) return;
-
     // Ignore bots (including itself)
     if (msg.author.bot) return;
 
