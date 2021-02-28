@@ -1,0 +1,14 @@
+{
+  "name": "comet-bot",
+  "version": "1.0.0",
+  "description": "A discord bot for the classroom!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vidip Mankala",
+  "license": "ISC",
+  "dependencies": {
+    "eris": "^0.14.0"
+  }
+}
