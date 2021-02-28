@@ -7,7 +7,7 @@ exports.usage = '<problem>';
 exports.visibility = 0;
 
 exports.run = (bot, msg, args) => {
-    // Ignore clever messages with no content
+    // Ignore messages with no content
     if (args.length === 0) return;
 
     // Make a GET request to Math.js
