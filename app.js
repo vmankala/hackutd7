@@ -9,6 +9,7 @@ const fs = require('fs');
 
 // cleverbot memory
 bot.memory = [];
+bot.assignments = [];
 
 // File-based commands concept from: https://anidiots.guide/first-bot/a-basic-command-handler
 
